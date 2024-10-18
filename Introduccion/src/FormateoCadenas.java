@@ -11,5 +11,29 @@ public class FormateoCadenas {
 
         //Metodo printf
         System.out.printf("Nombre: %s, Edad: %d, Salario: %.2f%n", nombre, edad, salario);
+
+        var numeroEmpleado = 12;
+        //Formateo con texto block
+        mensaje = """
+                %nDetalle Persona:\s
+                --------------------
+                
+                \tNombre: %s
+                \tNo. Empleado: %04d
+                \tEdad: %d años
+                \t salario $%.2f
+                """.formatted(nombre, numeroEmpleado, edad, salario);
+        System.out.println(mensaje);
+
+        //Formateo con text block y printf directamente
+        System.out.printf("""
+                %nDetalle Persona:\s
+                --------------------
+                
+                \tNombre: %s
+                \tNo. Empleado: %04d
+                \tEdad: %d años
+                \t salario $%.2f
+                """, nombre, numeroEmpleado,edad,salario);
     }
 }
