@@ -1,3 +1,5 @@
+package javabases;
+
 public class ManejoSubcadenas {
 
     public static void main(String[] args) {

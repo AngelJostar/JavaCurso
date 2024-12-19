@@ -1,3 +1,5 @@
+package javabases;
+
 public class ReemplazarSubcadenas {
     public static void main(String[] args) {
         //Reemplazar subcadenas

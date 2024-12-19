@@ -1,3 +1,5 @@
+package javabases;
+
 public class TiposDatos {
     public static void main(String[] args) {
         //Entero (su valor por default es 0)

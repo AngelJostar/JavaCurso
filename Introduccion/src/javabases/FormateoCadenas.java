@@ -1,3 +1,5 @@
+package javabases;
+
 public class FormateoCadenas {
     public static void main(String[] args) {
         System.out.println("Formateo de cadenas");

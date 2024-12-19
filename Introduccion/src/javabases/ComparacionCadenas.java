@@ -1,6 +1,8 @@
+package javabases;
+
 public class ComparacionCadenas {
     public static void main(String[] args) {
-        //Comparacion de Cadenas (pool de cadenas)
+        //Comparacion de javabases.Cadenas (pool de cadenas)
         var cadena1 = "Java";
         var cadena2 = "Java";
         var cadena3 = new String("Java");

@@ -1,3 +1,5 @@
+package javabases;
+
 import java.util.Scanner;
 
 public class LeerLinea {

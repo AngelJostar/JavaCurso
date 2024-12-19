@@ -1,3 +1,5 @@
+package javabases;
+
 public class MasConcatenacionCadenas {
     public static void main(String[] args) {
         var cadena1 = "Hola";

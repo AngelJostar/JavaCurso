@@ -1,3 +1,5 @@
+package javabases;
+
 public class IndicesCadena {
     public static void main(String[] args) {
         var cadena1 = "Hola Mundo";
